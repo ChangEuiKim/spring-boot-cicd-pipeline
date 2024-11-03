@@ -3,9 +3,9 @@ name: Spring Boot CI/CD Pipeline
 # STEP1: Main Branch에 push 또는 pull request가 발생할 때 실행한다.
 on:
   push:
-    branches: ['main']
+    branches: ['dev'] # 비활성화를 위해 main -> dev로 브랜치 변경
   pull_request:
-    branches: ['main']
+    branches: ['dev'] # 비활성화를 위해 main -> dev로 브랜치 변경
 
 jobs:
   # STEP2: SpringBoot_CI_CD_Pipeline이라는 Job을 실행한다.

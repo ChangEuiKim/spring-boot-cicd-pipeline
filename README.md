@@ -465,7 +465,7 @@ CI/CD 파이프라인을 실행할 AWS EC2 인스턴스를 생성합니다.
 9. 설정 변경을 반영하기 위해 SSH 서비스를 재시작합니다.
 
    ```bash
-   sudo systemctl sshd restart
+   sudo systemctl restart sshd
    ```
 
     - systemctl 명령은 시스템 서비스를 관리하는 명령어입니다.
